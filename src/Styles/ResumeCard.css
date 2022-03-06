@@ -1,0 +1,150 @@
+.web {
+    position: relative;
+    width: 600px;
+    /* height: 350px; */
+    /* border: 2px solid green; */
+}
+
+.resumeCardhead {
+/* display: flex;
+flex-wrap: wrap; */
+margin-top: 3rem;
+    box-sizing: border-box;
+}
+
+.resumeCardhead span {
+    color: #ff014f;
+    font-size: 14px;
+    font-family: 'Montserrat',
+        sans-serif;
+    /* color: #c4cfde; */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.resumeCardhead h1 {
+    font-size: 2.7vw;
+    font-weight: bolder;
+    color: #c4cfde;
+}
+
+.resumemain {
+
+    width: auto;
+    height: auto;
+    padding-left: 31px;
+    border-left: 5px solid #17191c;
+    /* border:5px solid #17191c; */
+    margin-top: 50px;
+}
+
+.resumeContent {
+    margin-top: 50px;
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid green;  */
+    box-shadow: 10px 10px 19px #1c1e22,
+        -10px -10px 19px #262a2e;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.resConMain {
+    display: inline;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+
+}
+
+.resConMain1 {
+    float: right;
+    box-shadow: 10px 10px 19px #1c1e22,
+        -10px -10px 19px #262a2e;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    padding: 10px 15px;
+    margin-top: -40px;
+    color: #ff014f;
+    border-radius: 10px;
+
+}
+
+.resConMain h4 {
+    font-size: 1.6vw;
+    font-weight: 600;
+    color: #c4cfde;
+    transition: 0.6s all;
+
+}
+
+.resConMain span {
+    color: #7c838e;
+    display: block;
+    font-size: 14px;
+}
+
+.resLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #1a1d23;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.resumeContent {
+    font-size: 20px;
+    line-height: 28px;
+    color: #878e99;
+    transition: 0.6s all;
+ 
+
+}
+
+.inner {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 5px;
+    right: 100%;
+    top: 63px;
+    transform: translateY(-7px);
+    background: #1b1c1d;
+    /* z-index: 0; */
+    /* margin-left: -31px; */
+    /* margin-bottom: 50px; */
+}
+
+
+.Outer {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 5px solid #17191c;
+    border-radius: 100%;
+    right: 104%;
+    top: 55px;
+    transform: translateY(-7px);
+    background: #222529;
+        transition: 0.6s all;
+
+    /* margin-top: -55px; */
+}
+
+.web:hover .Outer {
+    background-color: #ff014f;
+
+}
+
+.web:hover .resumeContent p
+    {
+    color: #c4cfde;
+
+   
+}
+
+.web:hover .resConMain div h4{
+    color:white;
+}

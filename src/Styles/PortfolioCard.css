@@ -1,0 +1,81 @@
+.portfolioCard{   width: 400px;
+   height: 26rem;
+   /* margin: 3vmax 0vmax 5vmax 6vmax; */
+   margin-right: 30px;
+   margin-bottom: 50px;
+   /* border: 2px solid red; */
+   text-align: left;
+   box-shadow: 10px 10px 19px #1c1e22,
+   -10px -10px 19px #262a2e;
+   background: linear-gradient(145deg, #1e2024, #23272b);
+   /* padding: 30px; */
+   border-radius: 10px;
+   transition: all 0.4s;
+   /* display: flex; */
+   transition: 0.5s all ease-in-out;
+   padding: 20px;
+}
+
+.aicon{
+  display: block;
+
+   margin: 10px 0px 10px 0px;
+}
+.aicon a{
+    color: #ff014f;
+    font-size: 12px;
+      font-family: 'Montserrat',
+      sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+
+.aicon div{
+    float: right;
+    color:#c4cfde;
+}
+
+.portfolioCard h4 a{
+/* font-size: 20px; */
+color:#c4cfde;
+font-weight: 700;
+font-size: 1.2rem;
+/* line-height: 34px; */
+display: inline-block;
+
+}
+
+/* .portfolioCard img{
+  border-radius: 10px;
+  transition: 0.50s all;
+} */
+
+
+.dance {
+  width: 22.5rem;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+  /* background: #fff; */
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+/* .dance :hover+span {
+  bottom: -36px;
+  opacity: 1;
+} */
+
+.portfolioCard_img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.portfolioCard:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}

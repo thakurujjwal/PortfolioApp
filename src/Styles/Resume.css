@@ -1,0 +1,59 @@
+.resumehead {
+    text-align: center;
+}
+
+
+.resumehead span {
+    color: #ff014f;
+    font-size: 12px;
+    font-family: 'Montserrat',
+        sans-serif;
+    /* color: #c4cfde; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.resumehead h1 {
+    font-size: 4vw;
+    font-weight: bolder;
+    color: #c4cfde;
+
+    /* line-height: 8px; */
+}
+
+.resumediv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 6.1rem;
+      box-shadow: 10px 10px 19px #1c1e22,
+      -10px -10px 19px #262a2e;
+      background: linear-gradient(145deg, #1e2024, #23272b);
+      text-align: center;
+      border-radius: 10px;
+      transition: all 0.4s;
+}
+
+.resume1{
+    width: 330px;
+    height: 80px;
+  border-radius: 10px;
+  transition: all 0.4s;
+       color:#c4cfde;
+     font-size: 18px;
+     font-family: 'Montserrat',
+     sans-serif;
+     letter-spacing: 1px;
+     padding-top: 28px;
+    font-weight: bold;
+    }
+
+    .resume1:hover{
+          box-shadow: 10px 10px 19px #1c1e22,
+          -10px -10px 19px #262a2e;
+          background: linear-gradient(145deg, #1e2024, #23272b);
+          border:#1c1e22;
+           color: #ff014f;
+    }

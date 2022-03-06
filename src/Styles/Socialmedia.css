@@ -1,0 +1,57 @@
+.social {
+    display: flex;
+
+}
+
+
+.maindiv {
+    display: flex;
+    width: max-content;
+
+}
+
+.maindiv button {
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    text-align: center;
+    box-shadow: 10px 10px 19px #1c1e22,
+        -10px -10px 19px #262a2e;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.maindiv :hover {
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.main-p {
+    font-size: 14px;
+    font-family: 'Montserrat',
+        sans-serif;
+    color: #c4cfde;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin: 120px 0px 20px 0px;
+}
+
+.maindiv svg {
+    cursor: pointer;
+    /* margin: 1vmax; */
+    fill: rgba(138, 138, 138, 0.705);
+}
+
+.maindiv :hover svg {
+    fill: gainsboro;
+}
+
+.maindiv-2 {
+    margin-left: 30px;
+    flex-direction: end;
+}

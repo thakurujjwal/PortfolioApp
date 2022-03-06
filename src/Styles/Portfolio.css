@@ -1,0 +1,26 @@
+.Portheading{
+  text-align: center;
+}
+
+
+.Portheading div,
+.Portheading span {
+      color: #ff014f;
+      font-size: 12px;
+      font-family: 'Montserrat',
+      sans-serif;
+      /* color: #c4cfde; */
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+}
+.Portheading h1{
+      font-size: 4vw;
+      font-weight: bolder;
+      color: #c4cfde;
+     text-transform: capitalize;
+      /* line-height: 8px; */
+}
+.card{
+ margin-left: 7.5rem;     
+}
